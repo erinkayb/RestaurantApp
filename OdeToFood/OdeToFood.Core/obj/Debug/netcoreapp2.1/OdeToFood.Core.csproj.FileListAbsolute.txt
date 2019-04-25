@@ -10,7 +10,6 @@ C:\Users\erin\documents\Visual studio 2017\LearnCS\OdeToFood\OdeToFood\OdeToFood
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.deps.json
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.dll
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.pdb
-C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.csprojAssemblyReference.cache
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.csproj.CoreCompileInputs.cache
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.AssemblyInfoInputs.cache
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.AssemblyInfo.cs

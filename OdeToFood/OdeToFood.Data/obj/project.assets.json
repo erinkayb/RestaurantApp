@@ -710,11 +710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erin\\documents\\Visual studio 2017\\LearnCS\\OdeToFood\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+      "projectUniqueName": "C:\\Users\\erin\\Documents\\Visual Studio 2017\\LearnCS\\RestaurantApp\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
       "projectName": "OdeToFood.Data",
-      "projectPath": "C:\\Users\\erin\\documents\\Visual studio 2017\\LearnCS\\OdeToFood\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+      "projectPath": "C:\\Users\\erin\\Documents\\Visual Studio 2017\\LearnCS\\RestaurantApp\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
       "packagesPath": "C:\\Users\\erin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erin\\documents\\Visual studio 2017\\LearnCS\\OdeToFood\\OdeToFood\\OdeToFood.Data\\obj\\",
+      "outputPath": "C:\\Users\\erin\\Documents\\Visual Studio 2017\\LearnCS\\RestaurantApp\\OdeToFood\\OdeToFood.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -733,8 +733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\erin\\documents\\Visual studio 2017\\LearnCS\\OdeToFood\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
-              "projectPath": "C:\\Users\\erin\\documents\\Visual studio 2017\\LearnCS\\OdeToFood\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj"
+            "C:\\Users\\erin\\Documents\\Visual Studio 2017\\LearnCS\\RestaurantApp\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
+              "projectPath": "C:\\Users\\erin\\Documents\\Visual Studio 2017\\LearnCS\\RestaurantApp\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj"
             }
           }
         }

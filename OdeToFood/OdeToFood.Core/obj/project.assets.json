@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erin\\documents\\Visual studio 2017\\LearnCS\\OdeToFood\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
+      "projectUniqueName": "C:\\Users\\erin\\Documents\\Visual Studio 2017\\LearnCS\\RestaurantApp\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
       "projectName": "OdeToFood.Core",
-      "projectPath": "C:\\Users\\erin\\documents\\Visual studio 2017\\LearnCS\\OdeToFood\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
+      "projectPath": "C:\\Users\\erin\\Documents\\Visual Studio 2017\\LearnCS\\RestaurantApp\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
       "packagesPath": "C:\\Users\\erin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erin\\documents\\Visual studio 2017\\LearnCS\\OdeToFood\\OdeToFood\\OdeToFood.Core\\obj\\",
+      "outputPath": "C:\\Users\\erin\\Documents\\Visual Studio 2017\\LearnCS\\RestaurantApp\\OdeToFood\\OdeToFood.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

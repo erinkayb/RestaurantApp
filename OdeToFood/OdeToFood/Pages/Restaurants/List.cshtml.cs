@@ -17,6 +17,10 @@ namespace OdeToFood.Pages.Restaurants
 
         public IEnumerable<Restaurant> Restaurants { get; set; }
 
+        // by default only binds post requests. This flag makes bind possible on get requests.
+        [BindProperty(SupportsGet = true)]
+        public string SearchTerm { get; set; }
+
         public ListModel(IConfiguration config, IRestaurantData restaurantData)
         {
             this.config = config;
@@ -25,7 +29,7 @@ namespace OdeToFood.Pages.Restaurants
 
         public void OnGet()
         {
-            Restaurants = restaurantData.GetAll();
+            Restaurants = restaurantData.GetRestaurantsByName(SearchTerm);
         }
     }
 }

@@ -11,6 +11,14 @@ namespace OdeToFood.Data
     {
         // add properties with the data that needs to be stored in the database
 
+        //add constructor to pass in all the information the dbcontext needs to work with the db
+
+        public OdeToFoodDBContext()
+        {
+
+        }
+        
+
         // DbSet used to tell entity framework to not only query for Restaurant information but also need to insert, update and delete restaurant information.
         public DbSet<Restaurant> Restaurants { get; set; }
     }

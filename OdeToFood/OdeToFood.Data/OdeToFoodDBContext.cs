@@ -13,7 +13,9 @@ namespace OdeToFood.Data
 
         //add constructor to pass in all the information the dbcontext needs to work with the db
 
-        public OdeToFoodDBContext()
+        public OdeToFoodDBContext(DbContextOptions<OdeToFoodDBContext> options)
+            // forward options to base class constructor
+            : base(options)
         {
 
         }

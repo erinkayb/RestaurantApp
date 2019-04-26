@@ -28,6 +28,7 @@ namespace OdeToFood.Pages.Restaurants
             {
                 return RedirectToPage("./NotFound");
             }
+            return Page();
         }
 
         // OnPost is needed because you never modify data in an OnGet method.

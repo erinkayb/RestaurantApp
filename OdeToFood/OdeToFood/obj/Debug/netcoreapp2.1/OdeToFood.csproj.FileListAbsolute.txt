@@ -75,3 +75,4 @@ C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeTo
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood\obj\Debug\netcoreapp2.1\OdeToFood.csproj.CopyComplete
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\NotFound.g.cshtml.cs
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\Edit.g.cshtml.cs
+C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\Delete.g.cshtml.cs

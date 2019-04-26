@@ -13,6 +13,8 @@ namespace OdeToFood.Pages.Restaurants
     {
         private readonly IRestaurantData restaurantData;
 
+        // changed property to be an input and output (only happens when posts which is the default of BindProperty.)
+        [BindProperty]
         public Restaurant Restaurant { get; set; }
 
         public EditModel(IRestaurantData restaurantData)
@@ -23,11 +25,24 @@ namespace OdeToFood.Pages.Restaurants
         public IActionResult OnGet(int restaurantId)
         {
             Restaurant = restaurantData.GetById(restaurantId);
-            if(Restaurant == null)
+            if (Restaurant == null)
             {
                 return RedirectToPage("./NotFound");
             }
             return Page();
         }
+
+        public IActionResult OnPost()
+        {
+            if (ModelState.IsValid)
+            {
+                restaurantData.Update(Restaurant);
+                restaurantData.Commit();
+                return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id });
+            }
+
+            return Page();
+        }
+
     }
 }

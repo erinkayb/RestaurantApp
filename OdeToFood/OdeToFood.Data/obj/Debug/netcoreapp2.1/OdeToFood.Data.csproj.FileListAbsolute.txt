@@ -22,3 +22,5 @@ C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeTo
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.csproj.CopyComplete
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.dll
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.pdb
+C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.runtimeconfig.json
+C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.runtimeconfig.dev.json

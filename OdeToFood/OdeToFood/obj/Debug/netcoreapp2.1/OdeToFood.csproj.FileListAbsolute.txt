@@ -78,3 +78,4 @@ C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeTo
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\Delete.g.cshtml.cs
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\_Summary.g.cshtml.cs
 C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\Components\RestaurantCount\Default.g.cshtml.cs
+C:\Users\erin\Documents\Visual Studio 2017\LearnCS\RestaurantApp\OdeToFood\OdeToFood\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\ClientRestaurants.g.cshtml.cs

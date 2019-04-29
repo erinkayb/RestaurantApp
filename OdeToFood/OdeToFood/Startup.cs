@@ -55,6 +55,9 @@ namespace OdeToFood
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            // middleware
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -62,19 +65,42 @@ namespace OdeToFood
             else
             {
                 app.UseExceptionHandler("/Error");
+
+                // Tells the browser to only load over a secure connection
                 app.UseHsts();
             }
 
+            app.Use(SayHelloMiddleware);
 
-            // middleware
 
+            // sends redirct to any browser using plain http
             app.UseHttpsRedirection();
+            // serves static files from wwwroot folder
             app.UseStaticFiles();
             // serve static files from node modules folder
             app.UseNodeModules(env);
             app.UseCookiePolicy();
 
+            // router
             app.UseMvc();
+        }
+
+
+        // request delegate is a method that takes an http context as a paramater and returns a task
+        private RequestDelegate SayHelloMiddleware(RequestDelegate next)
+        {
+            return async ctx =>
+            {
+
+                if (ctx.Request.Path.StartsWithSegments("/hello"))
+                {
+                     await ctx.Response.WriteAsync("Hello World");
+                }
+                else
+                {
+                    await next(ctx);
+                }
+            };
         }
     }
 }
